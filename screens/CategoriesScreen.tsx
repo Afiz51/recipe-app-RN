@@ -3,7 +3,6 @@ import { CATEGORIES } from "../data/Dummy-data";
 import CategoryGridTile from "../components/CategoryGridTile";
 import { NativeStackScreenProps } from "@react-navigation/native-stack";
 import { RootStackParamList } from "../types/navigationTypes";
-import { useNavigation } from "@react-navigation/core";
 
 type Iitem = {
   item: {
